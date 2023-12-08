@@ -1,0 +1,3 @@
+[submodule "sources/lib"]
+	path = lib/lathex-template
+	url = https://github.com/apehex/lathex-template
