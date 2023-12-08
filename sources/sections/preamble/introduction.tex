@@ -1,0 +1,17 @@
+\section{Introduction} \label{chap:introduction}
+
+Protocol attacks often involve attackers deploying a malicious smart contract.
+Given these smart contracts are deployed before assets are being stolen, detection of these malicious smart contracts is of utmost importance.
+Several detection bots are deployed on the Forta Network today, which identify malicious smart contracts using static and dynamic detection approaches.
+
+The dynamic detection approach \href{\urlbotsimulation}{Smart Contract Simulation bot} attempts to simulate the execution of a malicious smart contract and observing whether suspicious state changes (e.g. TVL drop) occurs during the execution of the smart contract.
+
+Given that malicious smart contracts are not source code verified, the bot attempts to guess the ABI and invoke the contract using a variety of heuristics.
+This often fails (e.g. when the parameter list is unknown or the parameter requires to be of a certain value).
+
+Fuzzing is the technique that can be utilized to execute smart contracts and - using a variety of techniques, such as taint analysis - make informed guesses on how to execute a contract to exhibit its behavior.
+Unfortunately, these fuzzing tools have primarily been developed by smart contract auditors and operate on source code.
+
+A possible avenue to work around this mismatch of having the bytecode of malicious smart contracts and fuzzing tools that require source code are decompilers.
+Decompilers can turn byte code into valid source code.
+This bounty is about assessing whether decompiling malicious smart contracts could increase the likelihood of successful execution and therefore successful detection.

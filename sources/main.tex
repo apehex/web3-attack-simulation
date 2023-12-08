@@ -1,0 +1,102 @@
+% =======================================================================================
+\input{references/urls}
+
+\begin{document}
+
+% =======================================================================================
+%\cleardoublepage % Forces the first chapter to start on an odd page so it's on the right
+
+% =======================================================================================
+%                                   PREAMBLE
+% =======================================================================================
+\coverpage{\TITLE}{\SUBTITLE}{\AUTHOR}{\DATE}{\SUBJECT}
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\newpage
+\backgroundbarvisiblefalse
+\pagestyle{plain}
+\input{sections/preamble/context}
+\input{sections/preamble/changelog}
+\input{sections/preamble/contacts}
+%----------------------------------------------------------------------------------------
+\newpage
+\tableofcontents
+%----------------------------------------------------------------------------------------
+
+% =======================================================================================
+%                                   PART 0: OVERVIEW
+% =======================================================================================
+\part{Overview} \label{sec:overview}
+%----------------------------------------------------------------------------------------
+\input{sections/preamble/introduction}
+\input{sections/preamble/methodology}
+% \input{sections/preamble/related}
+
+% =======================================================================================
+%                                   PART 1: TARGETS
+% =======================================================================================
+\input{sections/targets/description}
+\part{Simulation Targets}
+%----------------------------------------------------------------------------------------
+\chapter{Attacks} \label{ch:attacks}
+\input{sections/targets/attacks}
+%----------------------------------------------------------------------------------------
+\chapter{Controls} \label{ch:controls}
+\input{sections/targets/controls}
+
+% =======================================================================================
+%                                   PART 2: PROCESS
+% =======================================================================================
+\input{sections/process/description}
+\part{Simulation Process} \label{sec:simulation-process}
+%----------------------------------------------------------------------------------------
+\chapter{Process Overview} \label{ch:process-overview}
+\input{sections/process/overview}
+\chapter{Decompilation} \label{ch:decompilation}
+\input{sections/process/decompilation}
+\chapter{Modeling} \label{ch:modeling}
+\input{sections/process/modeling}
+\chapter{Fuzzing} \label{ch:fuzzing}
+\input{sections/process/fuzzing}
+
+% =======================================================================================
+%                                   PART 3: TOOLS
+% =======================================================================================
+\input{sections/tooling/description}
+\part{Tooling} \label{sec:evasion}
+%----------------------------------------------------------------------------------------
+\chapter{Decompilers} \label{ch:decompilers}
+\input{sections/tooling/decompilers}
+%----------------------------------------------------------------------------------------
+\chapter{Fuzzers} \label{ch:fuzzers}
+\input{sections/tooling/fuzzers}
+
+% =======================================================================================
+%                                   PART 4: RESULTS
+% =======================================================================================
+\input{sections/results/description}
+\part{Results}
+%----------------------------------------------------------------------------------------
+\chapter{Detection Stats} \label{ch:stats}
+\input{sections/results/stats}
+\chapter{Performance Profile} \label{ch:profiling}
+\input{sections/results/profiling}
+
+% =======================================================================================
+%                                   PART -1: APPENDICES
+% =======================================================================================
+% \renewcommand{\thechapter}{\Alph{chapter}}
+% \renewcommand{\thesection}{\Alph{chapter}.\Roman{section}}
+% \renewcommand{\thesubsection}{\Alph{chapter}.\Roman{section}.\alph{subsection}}
+% \setcounter{chapter}{0}
+% \setcounter{section}{0}
+% \setcounter{subsection}{0}
+%----------------------------------------------------------------------------------------
+% \part{Appendices} \label{sec:appendices}
+%----------------------------------------------------------------------------------------
+% \chapter{Detection modules} \label{ch:detection-modules}
+% \input{sections/appendices/preprocessing}
+%----------------------------------------------------------------------------------------
+% \newpage\printbibliography[title = {Resources}]
+
+\end{document}

@@ -1,0 +1,21 @@
+# temp files
+.build/*
+*.aux
+*.bcf
+*.bib
+*.blg
+*.fls
+*.idx
+*.log
+*.ptc
+*.toc
+*.xml
+
+# bibliography
+*.bbl
+
+# api keys
+.env.json
+
+# python env
+pyproject.toml
