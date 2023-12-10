@@ -28,4 +28,4 @@ The Forta theme requires either `xetex` or `lualatex` since it is using specific
 
 ## Attack Samples
 
-Data from the latest attacks has been gathered to study, in ``.
+Data from the latest attacks has been gathered to study, in the [samples subfolder](../samples).
