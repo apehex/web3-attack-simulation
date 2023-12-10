@@ -15,7 +15,11 @@
 *.bbl
 
 # api keys
-.env.json
+.env
 
 # python env
 pyproject.toml
+
+# foundry
+.out/
+cache/
