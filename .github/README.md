@@ -17,9 +17,9 @@ The figures are also exported separately in the [figures subfolder](../figures).
 From the root directory of the repository:
 
 ```shell
-cd sources/
-lualatex --output-directory ../report/ dark.tex
-lualatex --output-directory ../figures/ figures/light.tex
+cd report/sources/
+lualatex --output-directory ../build/report/ dark.tex
+lualatex --output-directory ../build/figures/ figures/light.tex
 ```
 
 The report can be built with `pdflatex`, `xetex` or `lualatex`.
