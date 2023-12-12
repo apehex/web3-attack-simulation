@@ -1,5 +1,4 @@
 # temp files
-.build/*
 *.aux
 *.bcf
 *.bib
@@ -21,5 +20,4 @@
 pyproject.toml
 
 # foundry
-.out/
-cache/
+.foundry
