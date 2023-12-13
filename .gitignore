@@ -17,7 +17,8 @@
 .env
 
 # python env
-pyproject.toml
+.python-version
+poetry.lock
 
 # foundry
 .foundry

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "forta-attack-simulation-report"
+version = "0.0.1"
+description = "Study on the possibility to trigger and detect malicious functions on smart contract creation."
+authors = ["apehex <apehex@protonmail.com>"]
+readme = ".github/README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8, <4"
+forta-toolkit = {path = "../toolkit/", develop = true}
+ioseeth = {path = "../ioseeth/", develop = true}
+# forta-toolkit = ">=0.4.7"
+# ioseeth = ">=0.1.21"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
