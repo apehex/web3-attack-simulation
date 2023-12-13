@@ -1,0 +1,57 @@
+[{
+  "type": "function",
+  "name": "Unresolved_10d1e85c",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "bytes",
+      "type": "bytes"
+    },
+    {
+      "name": "arg1",
+      "internalType": "bytes",
+      "type": "bytes"
+    },
+    {
+      "name": "arg2",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [],
+  "stateMutability": "pure",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_8d9410de",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    },
+    {
+      "name": "arg1",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [],
+  "stateMutability": "payable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_da9100cc",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable",
+  "constant": false
+}]

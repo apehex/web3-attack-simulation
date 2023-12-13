@@ -1,0 +1,62 @@
+[{
+  "type": "function",
+  "name": "Unresolved_8d9410de",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    },
+    {
+      "name": "arg1",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [],
+  "stateMutability": "pure",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "uniswapV2Call",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    },
+    {
+      "name": "arg1",
+      "internalType": "uint256",
+      "type": "uint256"
+    },
+    {
+      "name": "arg2",
+      "internalType": "uint256",
+      "type": "uint256"
+    },
+    {
+      "name": "arg3",
+      "internalType": "bytes",
+      "type": "bytes"
+    }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_da9100cc",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable",
+  "constant": false
+}]
