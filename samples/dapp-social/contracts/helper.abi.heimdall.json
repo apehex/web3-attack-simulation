@@ -1,0 +1,27 @@
+[{
+  "type": "function",
+  "name": "killMe",
+  "inputs": [],
+  "outputs": [],
+  "stateMutability": "payable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_42c59677",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    },
+    {
+      "name": "arg1",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [],
+  "stateMutability": "payable",
+  "constant": false
+}]

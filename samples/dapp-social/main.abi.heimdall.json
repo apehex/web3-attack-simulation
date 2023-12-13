@@ -1,0 +1,89 @@
+[{
+  "type": "function",
+  "name": "claimTokens",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "killMe",
+  "inputs": [],
+  "outputs": [],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "exploit",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "__a",
+  "inputs": [],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "uint256",
+      "type": "uint256"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "exec",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    },
+    {
+      "name": "arg1",
+      "internalType": "bytes",
+      "type": "bytes"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "bytes memory",
+      "type": "bytes memory"
+    }
+  ],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_b0711e08",
+  "inputs": [],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "uint256",
+      "type": "uint256"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+}]
