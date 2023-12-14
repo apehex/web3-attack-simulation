@@ -99,11 +99,6 @@ scrape after each step:
 - same call twice
 - buffer overflow pattern
 
-```python
-def pattern(chunks: int) -> str:
-    return ''.join(['{0:0>4x}'.format(0xaaaa+__i) for __i in range(128)])
-```
-
 ### Analysis
 
 - diff on traces
@@ -131,3 +126,5 @@ def pattern(chunks: int) -> str:
 - collect function selectors
 - index contracts by their ABI
 - flashbots / private tx counter?
+- what i can do manually that the bot doesn't
+- what ML could do that i don't

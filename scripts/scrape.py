@@ -11,10 +11,10 @@ import forta_toolkit.parsing.common as fpc
 def main():
     # CLI args
     __parser = argparse.ArgumentParser(description='scrapes tx data from the RPC URL')
+    __parser.add_argument('--input', '-i', help='', default='scripts/rekt/eth.txt')
     __parser.add_argument('--output', '-o', help='', default='samples/{case}/transactions/')
     __parser.add_argument('--url', '-u', help='', default=os.environ.get('RPC_URL', 'https://rpc.ankr.com/eth'))
     __parser.add_argument('--txhash', '-t', help='', default='')
-    __parser.add_argument('--list', '-l', help='', default='scripts/eth.txt')
     # setup
     __args = __parser.parse_args()
     __provider = web3.Web3(web3.HTTPProvider(__args.url))
@@ -23,8 +23,8 @@ def main():
         __tx = scrape(provider=__provider, txhash=__args.txhash)
         export_tx(tx=__tx, path='.')
     # collect a list of TXs
-    if __args.list:
-        __attacks = import_tx_list(path=__args.list)
+    if __args.input:
+        __attacks = import_tx_list(path=__args.input)
         for __protocol, __txs in __attacks.items():
             # parent path
             __path = __args.output.format(case=__protocol)
